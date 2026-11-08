@@ -371,6 +371,37 @@ nav a:active {
     line-height: 1.4;
     flex: 1;
 }
+/* Privacy notice close control */
+.privacy-toggle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.privacy-close {
+    background-color: #E32636;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.privacy-close:hover {
+    background-color: #B91F2D;
+}
+
+.privacy-toggle:focus-visible + .cookie-message .privacy-close {
+    outline: 2px solid #193B34;
+    outline-offset: 3px;
+}
+
+.privacy-toggle:checked + .cookie-message {
+    display: none;
+}
 
 /* BURNS PAGE */
 
