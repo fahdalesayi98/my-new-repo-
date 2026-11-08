@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <path
+        d="M50 90 C35 77 5 55 5 30 C5 5 35 0 50 22 C65 0 95 5 95 30 C95 55 65 77 50 90 Z"
+        fill="#DC1F32"
+    />
+    <path
+        d="M43 35 H57 V43 H65 V57 H57 V65 H43 V57 H35 V43 H43 Z"
+        fill="white"
+    />
+</svg>
