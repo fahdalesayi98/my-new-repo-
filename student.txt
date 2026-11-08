@@ -2,4 +2,4 @@ Student name: Fahd Nasser
 Student number: 763137
 Student class: IT1B
 GitHub Repository:https://github.com/fahdalesayi98/my-new-repo-
-GitHub Pages URL: your github pages URL
+GitHub Pages URL: https://fahdalesayi98.github.io/my-new-repo-/
