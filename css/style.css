@@ -1158,6 +1158,68 @@ nav a:active {
     background-color: #B91F2D;
 }
 
+
+
+/*  Contact Button */
+
+.contact-form-box a.contact-submit {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 0;
+    padding: 12px 20px;
+    background-color: #E32636;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-form-box a.contact-submit:hover {
+    background-color: #B91F2D;
+}
+
+
+/* Thank You Popup */
+
+.thank-you-message {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-you-message:target {
+    display: flex;
+}
+
+.thank-you-content {
+    background-color: white;
+    width: 420px;
+    max-width: 90%;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.thank-you-content h2 {
+    color: #E32636;
+}
+
+.thank-you-close {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #E32636;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
 /* Emergency Information */
 
 .contact-emergency {
